@@ -45,3 +45,5 @@ Após receber a porta a ser utilizada, é alertado que o servidor está funciona
 É exibido o endereço de cada usuário conectado, e em seguida eles são adicionados na lista de arrays de usuários.
 
 **Método Principal Main():** Após ser definido a porta, é feito a chamada do método executarServidor() para inicializar o servidor.
+
+### O nosso código final reproduz uma conexão Cliente-Servidor, possibilitando a comunicação entre os usuários conectados. Entretanto, não conseguimos implementar a funcionalidade de mensagem privada entre os usuários, como especificava o exercício.
