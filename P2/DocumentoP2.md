@@ -1,4 +1,4 @@
-Classe UsuarioThread
+# Classe UsuarioThread
 
 Método construtor: Referenciar o servidor e o socket.
 
@@ -8,7 +8,7 @@ Método run(): Método específico da Biblioteca Thread para verificar qual mens
 Dentro do método há uma verificação que, enquanto o socket não estiver fechado, será executado um loop mostrando assim qual respectivo usuário mandou determinada mensagem.
 
 
-Classe Usuario
+# Classe Usuario
 
 Método construtor: Referenciar o nome do usuário, o endereço de IP e a porta.
 
@@ -19,7 +19,7 @@ Método Principal Main(): Após receber o nome do usuário, a execução entra e
 Após o nome do usuário for validado, é chamado o construtor com os parâmetros solicitados e instanciado o mesmo, chamando o metódo para execução do usuário.
 
 
-Classe ServidorThread
+# Classe ServidorThread
 
 Método construtor: Referenciar o nome e o socket do usuário.
 
@@ -32,7 +32,7 @@ do scanner.
 Se a mensagem digitada for não nula (verdadeira), é utilizado o comando synchronized, retornando a primeira mensagem da lista e mostrando para todos os usuários.
 
 
-Classe Servidor
+# Classe Servidor
 
 Método construtor: Referenciar a porta na hora da declaração no main.
 
