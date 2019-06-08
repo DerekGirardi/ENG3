@@ -39,7 +39,7 @@ Se a mensagem digitada for não nula (verdadeira), é utilizado o comando synchr
 **Método executarServidor():** Responsável pela execução do servidor.
 Após receber a porta a ser utilizada, é alertado que o servidor está funcionando através de um println, e em seguida é chamado o método adcUsuario().
 
-**Método List<*UsuarioThread> getUsuario():** Retorna um usuário específico.
+**Método getUsuario():** Retorna um usuário específico.
 
 **Método adcUsuario():** Responsável por adicionar o usuário de acordo com seu socket.
 É exibido o endereço de cada usuário conectado, e em seguida eles são adicionados na lista de arrays de usuários.
